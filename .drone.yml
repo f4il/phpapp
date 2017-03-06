@@ -2,6 +2,7 @@ pipeline:
   build:
     image: docker
     commands:
+      - docker ps
       - docker build -t phpapp .
       - docker run  -d -p 8686:80 --name phpapp phpapp
       - docker exec -it phpapp curl 127.0.0.1:80
