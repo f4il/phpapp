@@ -1,0 +1,6 @@
+pipeline:
+  build:
+    image: docker
+    commands:
+      - docker build -t phpapp .
+      - docker run  -d -p 8686:80 --name phpapp phpapp
