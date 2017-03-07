@@ -5,6 +5,7 @@ publish:
     storage_driver: overlay
     username: $$DOCKERHUB_USERNAME
     password: $$DOCKERHUB_PASSWORD
+    email: michal@f4il.net
 #  commands:
 #    -  docker ps
 #    - docker build -t phpapp .
