@@ -4,7 +4,7 @@ publish:
     tags: droneci
     storage_driver: overlay
     username: $$DOCKERHUB_USERNAME
-    password: xxxx
+    password: $$DOCKERHUB_PASSWORD
 #  commands:
 #    -  docker ps
 #    - docker build -t phpapp .
