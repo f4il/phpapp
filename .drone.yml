@@ -2,7 +2,7 @@ publish:
   docker:
     repo: f4il/phpapp
     tags: droneci
-#  storage_driver: overlay
+    storage_driver: overlay
 #  commands:
 #    -  docker ps
 #    - docker build -t phpapp .
