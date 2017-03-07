@@ -3,7 +3,7 @@ publish:
     repo: f4il/phpapp
     tags: droneci
     storage_driver: overlay
-    username: f4il
+    username: $$DOCKERHUB_USERNAME
     password: xxxx
 #  commands:
 #    -  docker ps
