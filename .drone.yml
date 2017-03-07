@@ -1,5 +1,6 @@
 build:
   image: plugins/docker
+  storage_driver: overlay
   commands:
     -  docker ps
 #    - docker build -t phpapp .
